@@ -1,0 +1,29 @@
+# 编译产物
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.axf
+*.build_log.htm
+Debug/
+Release/
+build/
+Output/
+MDK-ARM/*/
+!MDK-ARM/*.uvprojx
+!MDK-ARM/*.uvoptx
+
+# IDE
+.vscode/
+.idea/
+*.uvguix.*
+JLinkLog.txt
+RTE/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
